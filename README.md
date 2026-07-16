@@ -2,6 +2,8 @@
 
 I build production systems where AI does real work under real constraints — budgets, compliance rules, human approval gates. Most of what I ship is the unglamorous part: the state machines, ledgers, and guardrails that make autonomous pipelines safe to leave running.
 
+Most of my contribution volume is daily production work in private client repositories — the pinned repos below are curated public editions of those systems, with full architecture documentation.
+
 ## Selected work
 
 **[content-engine](https://github.com/marvin-mvm/content-engine)** — an autonomous social-content production system that ran daily for a DTC brand in a regulated vertical. The parts I care about: a single Red/Yellow/Green claims authority consulted by every layer instead of per-step filters; a credit-first state machine where the only paid generation step sits behind human concept approval; an append-only decision ledger that steers future generation away from rejected work. Python, Telegram review gates, launchd scheduling. *(Debranded public edition of a client system.)*
