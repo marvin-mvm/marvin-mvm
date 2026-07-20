@@ -24,7 +24,7 @@ Heavy use of AI coding agents (Claude Code, Lovable), which is exactly why the i
 
 - **Languages:** Python, TypeScript / React
 - **Backend & infra:** Supabase (Postgres / RLS, edge functions), Deno, Cloudflare Workers, Netlify, GCP
-- **LLM & agents:** Claude (API + Code), Gemini, OpenRouter, Groq, MCP, RAG (pgvector), OpenClaw, Skyvern
+- **LLM & agents:** Claude (API + Code), Gemini, OpenRouter, Groq, MCP, knowledge grounding, OpenClaw, Skyvern
 - **Payments:** PayPal, Xendit, ONVO
 - **Integrations & CRM:** SOAP, webhooks / HMAC, GoHighLevel, Close, Zapier, Google Apps Script
 - **Data & scraping:** Firecrawl, Apify, SearchAPI
