@@ -16,6 +16,8 @@ Most of my contribution volume is daily production work in private client reposi
 
 **[lead-pipeline](https://github.com/marvin-mvm/lead-pipeline)** is a small scraping-to-CRM pipeline whose design position is that a bad record is worse than no record: a 5-source phone waterfall, identity-based dedup, and a permanent no-result ledger, with the full operating spec written as an executable contract an agent can run unattended.
 
+**[shovels-extractor](https://github.com/marvin-mvm/shovels-extractor)** is a lead-generation pipeline for owner-builder construction: it pulls no-contractor building permits from the Shovels.AI API (an owner-builder permit means the homeowner, not a general contractor, is the buyer), filters by permit type and square footage, dedups to one row per property, and enriches each parcel against public county GIS to produce skip-trace-ready leads. Same design position as lead-pipeline: credit-aware calls so the permit-API budget can't run away, and one clean row per property over raw volume. Python. *(Debranded public edition of a client system.)*
+
 ## How I work
 
 Heavy use of AI coding agents (Claude Code, Lovable), which is exactly why the interesting problems shift to the boundaries: what the agent may do without asking, where money gets spent, what a human must approve, and how the system proves it followed the rules. The repos above are curated to milestone commits; the working histories were much noisier. I build daily with Lovable as a Level 5 user, its highest tier.
