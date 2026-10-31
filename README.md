@@ -1,6 +1,6 @@
 # Marvin Mata
 
-**Lead Native AI Product Engineer · Self-taught AI builder · Licensed Mechanical Engineer**
+**Lead AI Product Engineer · Mechanical Engineer · SaaS, Research, Content, Memory**
 
 I build with AI every day, and I test my own ideas, not just new features.
 
@@ -13,7 +13,7 @@ I build with AI every day, and I test my own ideas, not just new features.
 ## Selected work
 
 - **[content-engine](https://github.com/marvin-mvm/content-engine):** AI content system: finds outlier videos and trends, turns ideas into structured briefs, and requires human approval before anything publishes.
-- **[photon-nexus](https://github.com/marvin-mvm/photon-nexus):** my own layered memory engine for LLMs, started Dec 2025: knowledge shards, cross-checked retrieval, and cached reasoning that's dropped when evidence contradicts it.
+- **[photon-nexus](https://github.com/marvin-mvm/photon-nexus):** my own layered memory engine for LLMs, started Dec 2025: knowledge shards, cross-checked retrieval, and cached reasoning that's dropped when evidence contradicts it. A similar idea to Andrej Karpathy's LLM Wiki (Apr 2026).
 - **[lead-pipeline](https://github.com/marvin-mvm/lead-pipeline):** lead research with a 5-source verification process: a bad record is worse than no record.
 - **[aimeo](https://github.com/marvin-mvm/aimeo):** AI personas from public profiles. Top 3% in Lovable Shipped Season 1.
 - **[resinmind](https://github.com/marvin-mvm/resinmind):** full SaaS for resin artists, built solo: AI assistant, image AI, calculators, and payments.
