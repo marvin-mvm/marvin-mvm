@@ -4,7 +4,7 @@
 
 I build with AI every day, and I test my own ideas, not just new features.
 
-**My story.** I learned to build with AI from YouTube. I started using Lovable in mid-2025, joined Lovable Shipped Season 1 and finished in the top 3% of ~6,000, and launched two SaaS products on my own. I then offered my work on Upwork and was hired full-time to build AI systems for a US company. I'm now in a Generative AI and Agentic AI program at the Asian Institute of Management, because self-taught skills deserve structured study too.
+**My story.** I learned to build with AI from YouTube. I started using Lovable in mid-2025, joined Lovable Shipped Season 1 and finished in the top 3% of ~6,000, and launched two SaaS products on my own. A US company then found my Upwork profile and hired me directly within two days to build AI systems full-time. I'm now in a Generative AI and Agentic AI program at the Asian Institute of Management (AACSB-accredited), because self-taught skills deserve structured study too.
 
 **How I think.** I'm a mechanical engineer, so I approach AI as a system: inputs, failure points, and safety limits. Most of what I build is the part that makes AI safe to leave running: human approval steps, spending limits, accuracy checks, and logs of what was decided.
 
