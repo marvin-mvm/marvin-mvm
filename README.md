@@ -1,33 +1,24 @@
-# Marvin
+# Marvin Mata
 
-I build production systems where AI does real work under real constraints: budgets, compliance rules, human approval gates. Most of what I ship is the unglamorous part: the state machines, ledgers, and guardrails that make autonomous pipelines safe to leave running.
+**Lead Native AI Product Engineer · Self-taught AI builder · Licensed Mechanical Engineer**
 
-Most of my contribution volume is daily production work in private client repositories. The pinned repos below are curated public editions of those systems, with full architecture documentation.
+I build with AI every day, and I test my own ideas, not just new features.
+
+**My story.** I learned to build with AI from YouTube. I started using Lovable in mid-2025, joined Lovable Shipped Season 1 and finished in the top 3% of ~6,000, and launched two SaaS products on my own. I then offered my work on Upwork and was hired full-time to build AI systems for a US company. I'm now in a Generative AI and Agentic AI program at the Asian Institute of Management, because self-taught skills deserve structured study too.
+
+**How I think.** I'm a mechanical engineer, so I approach AI as a system: inputs, failure points, and safety limits. Most of what I build is the part that makes AI safe to leave running: human approval steps, spending limits, accuracy checks, and logs of what was decided.
+
+**What I do now.** I scout and test AI tools for my company (build vs. subscribe), and I build research, content, and lead-generation systems that check every claim and record against real sources.
 
 ## Selected work
 
-**[content-engine](https://github.com/marvin-mvm/content-engine)** is an autonomous social-content production system that ran daily for a DTC brand in a regulated vertical. The parts I care about: a single Red/Yellow/Green claims authority consulted by every layer instead of per-step filters; a credit-first state machine where the only paid generation step sits behind human concept approval; an append-only decision ledger that steers future generation away from rejected work. Python, Telegram review gates, launchd scheduling. *(Debranded public edition of a client system.)*
+- **[content-engine](https://github.com/marvin-mvm/content-engine):** AI content system: finds outlier videos and trends, turns ideas into structured briefs, and requires human approval before anything publishes.
+- **[photon-nexus](https://github.com/marvin-mvm/photon-nexus):** my own layered memory engine for LLMs, started Dec 2025: knowledge shards, cross-checked retrieval, and cached reasoning that's dropped when evidence contradicts it.
+- **[lead-pipeline](https://github.com/marvin-mvm/lead-pipeline):** lead research with a 5-source verification process: a bad record is worse than no record.
+- **[aimeo](https://github.com/marvin-mvm/aimeo):** AI personas from public profiles. Top 3% in Lovable Shipped Season 1.
+- **[resinmind](https://github.com/marvin-mvm/resinmind):** full SaaS for resin artists, built solo: AI assistant, image AI, calculators, and payments.
+- **[shovels-extractor](https://github.com/marvin-mvm/shovels-extractor):** building-permit lead research with strict API-credit limits.
 
-**[commerce-engine](https://github.com/marvin-mvm/commerce-engine)** is the server side of a DTC storefront: the order, payment, and fulfillment backend where correctness matters more than the UI. A SOAP integration to a third-party 3PL that discovers operations from the WSDL at runtime and normalizes its irregular XML into stable JSON; a payment webhook that verifies an HMAC-SHA256 signature with a constant-time compare; checkout that revalidates every line price server-side so a tampered cart cannot lower a total. An order state machine with an append-only event log and reconciliation loops that keep local state in sync with the warehouse. *(Debranded public edition of a client system.)*
+*Most of my daily work is in private client repos. These are cleaned-up public editions with full write-ups.*
 
-**[resinmind](https://github.com/marvin-mvm/resinmind)** is a full-stack SaaS for epoxy-resin artists, built around a resin calculator that turns a photo or 3D model into a real material estimate. Upload an image and it vectorizes then extrudes it, or pick one of eight parametric shape calculators, with submerged-volume math for the hard case: how much resin an irregular live-edge river table actually needs. Volume is computed server-side from the 3D mesh (TypeScript, credit-gated) and turned into resin ratio, mix, and cost. Around it sits a credit economy the app migrated to mid-flight: an internal wallet ledger, transferable vouchers a supplier can hand to their own customers, and dual payment processors (PayPal + Xendit), plus a knowledge-grounded support chatbot, an async image Art Decomposer, and a community project log. 43 Supabase edge functions; every AI feature is metered server-side, so the client never computes entitlement.
-
-**[aimeo](https://github.com/marvin-mvm/aimeo)** is a set of AI personas generated from a person's public footprint, searchable and chattable. The recurring lesson in its history: LLM output drift is solved with schema-validated contracts and rule enforcement, not better prompts. It includes two-step social verification so a persona can only be claimed by its subject. Built during Lovable Shipped (Season 1), where it ranked 155th of nearly 6,000 entrants worldwide (top 3%) and 33rd in the Asia and Oceania region.
-
-**[lead-pipeline](https://github.com/marvin-mvm/lead-pipeline)** is a small scraping-to-CRM pipeline whose design position is that a bad record is worse than no record: a 5-source phone waterfall, identity-based dedup, and a permanent no-result ledger, with the full operating spec written as an executable contract an agent can run unattended.
-
-**[shovels-extractor](https://github.com/marvin-mvm/shovels-extractor)** is a lead-generation pipeline for owner-builder construction: it pulls no-contractor building permits from the Shovels.AI API (an owner-builder permit means the homeowner, not a general contractor, is the buyer), filters by permit type and square footage, dedups to one row per property, and enriches each parcel against public county GIS to produce skip-trace-ready leads. Same design position as lead-pipeline: credit-aware calls so the permit-API budget can't run away, and one clean row per property over raw volume. Python. *(Debranded public edition of a client system.)*
-
-## How I work
-
-Heavy use of AI coding agents (Claude Code, Lovable), which is exactly why the interesting problems shift to the boundaries: what the agent may do without asking, where money gets spent, what a human must approve, and how the system proves it followed the rules. The repos above are curated to milestone commits; the working histories were much noisier. I build daily with Lovable as a Level 5 user, its highest tier.
-
-## Stack
-
-- **Languages:** Python, TypeScript / React
-- **Backend & infra:** Supabase (Postgres / RLS, edge functions), Deno, Cloudflare Workers, Netlify, GCP
-- **LLM & agents:** Claude (API + Code), Gemini, OpenRouter, Groq, MCP, knowledge grounding, OpenClaw, Skyvern
-- **Payments:** PayPal, Xendit, ONVO
-- **Integrations & CRM:** SOAP, webhooks / HMAC, GoHighLevel, Close, Zapier, Google Apps Script
-- **Data & scraping:** Firecrawl, Apify, SearchAPI
-- **Media:** Higgsfield, Blotato
+**Stack:** Claude Code · Claude API · Lovable · Gemini · OpenRouter · Python · TypeScript/React · Supabase · Apify · Firecrawl
