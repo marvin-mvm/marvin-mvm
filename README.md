@@ -18,7 +18,6 @@ I build with AI every day, and I test my own ideas, not just new features.
 - **[lead-pipeline](https://github.com/marvin-mvm/lead-pipeline):** lead research with a 5-source verification process: a bad record is worse than no record.
 - **[aimeo](https://github.com/marvin-mvm/aimeo):** AI personas from public profiles. Top 3% in Lovable Shipped Season 1.
 - **[resinmind](https://github.com/marvin-mvm/resinmind):** full SaaS for resin artists, built solo: AI assistant, image AI, calculators, and payments.
-- **[shovels-extractor](https://github.com/marvin-mvm/shovels-extractor):** building-permit lead research with strict API-credit limits.
 
 *Most of my daily work is in private client repos. These are cleaned-up public editions with full write-ups.*
 
