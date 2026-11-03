@@ -13,6 +13,7 @@ I build with AI every day, and I test my own ideas, not just new features.
 ## Selected work
 
 - **[content-engine](https://github.com/marvin-mvm/content-engine):** AI content system: finds outlier videos and trends, turns ideas into structured briefs, and requires human approval before anything publishes.
+- **[data-report-engine](https://github.com/marvin-mvm/data-report-engine):** turns government open data into published research reports, with a playbook of the data traps that produce wrong numbers and how each one is caught.
 - **[photon-nexus](https://github.com/marvin-mvm/photon-nexus):** my own layered memory engine for LLMs, started Dec 2025: knowledge shards, cross-checked retrieval, and cached reasoning that's dropped when evidence contradicts it. A similar idea to Andrej Karpathy's LLM Wiki (Apr 2026).
 - **[lead-pipeline](https://github.com/marvin-mvm/lead-pipeline):** lead research with a 5-source verification process: a bad record is worse than no record.
 - **[aimeo](https://github.com/marvin-mvm/aimeo):** AI personas from public profiles. Top 3% in Lovable Shipped Season 1.
